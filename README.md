@@ -23,13 +23,14 @@ Run from within IDLE/Arc/JetBrains interpreter.
 
 
 <H2><b>Conditions:</b></H2>
+
 * The CSV MUST contain only lat, long, altitude in the format: 
 
           27.0738646642463,-22.3961867450806,1789.600
           27.073282123073 ,-22.3961302609259,1788.868
           ...
           
-* The script will assing information from the 1st line of the CSV to the 1st image in the list:
+* The script will assign information from the 1st line of the CSV to the 1st image in the list:
 
         image_001.jpeg ---> row 1
         image_002.jpeg ---> row 2
@@ -38,3 +39,8 @@ Run from within IDLE/Arc/JetBrains interpreter.
 * If there are only 500 rows and 600 images, only the first 500 images will be allocated GPS EXIF data.
 * The file extensions are important. ONLY .jpeg and .csv are accepted.
 
+
+
+<H2><b>Comments:</b></H2>
+
+A far more robust solution would be to generate a CSV with an ID column that can tie the coordinates to the jpeg files. This will solve any issues relating to OS specific filename sorting. intergrating such a change to the script would be elementry. 
