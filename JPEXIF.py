@@ -19,9 +19,9 @@ def dms_conv(val, loc):
         locValue = ""
     absv = abs(val)
     deg =  int(absv)
-    t1 = (absv-deg)*60
-    mins = int(t1)
-    sec = round((t1 - mins)* 60, 5)
+    t = (absv-deg)*60
+    mins = int(t)
+    sec = round((t - mins)* 60, 5)
     return (deg, mins, sec, locValue)
 
 def numberFix(number):
