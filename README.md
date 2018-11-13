@@ -43,4 +43,4 @@ Run from within IDLE/Arc/JetBrains interpreter.
 
 <H2><b>Comments:</b></H2>
 
-A far more robust solution would be to generate a CSV with an ID column that can tie the coordinates to the jpeg files. This will solve any issues relating to OS specific filename sorting. intergrating such a change to the script would be elementry. 
+A <b>far more</b> robust solution would be to generate a CSV with an ID column that can tie the coordinates to the jpeg files. This will solve any issues relating to OS specific filename sorting. intergrating such a change to the script would be simple but as it stands it works just fine. 
