@@ -1,6 +1,7 @@
-<H1># JPEXIF
+<H1># JPEXIF</H1>
+
   
-Python Script to Insert GPS Location into JPEG EXIF Header</h1>
+<h1>Python Script to Insert GPS Location into JPEG EXIF Header</h1>
 
 <H4><b>Dirt Simple Tools.</b></H4>
 
