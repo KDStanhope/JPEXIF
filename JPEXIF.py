@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Module requires libraries:
+Module requires non standard libraries:
 Use "pip install piexif"
 Written for Python 3.6
 Software Provided with no licence and entirely in good faith.
