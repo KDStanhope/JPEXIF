@@ -4,7 +4,7 @@ This is an add on and a little bit messy but it gets the job done.
 
 <H2><b>Preface:</b></H2>
 
-The tags embedded in the jpeg files produced by FLIR cameras are not open source. They still contain the standard jpeg exif tags but the header contains extra bytes in order to extend the number of tags available. A brief bit of reverse engineering shows that at byte 0x06 we have a file format indicator of sorts: 'JFIF'
+The tags embedded in the jpeg files produced by FLIR cameras are not open. They still contain the standard jpeg exif tags but the header contains extra bytes in order to extend the number of tags available. A brief bit of reverse engineering shows that at byte 0x06 we have a file format indicator of sorts: 'JFIF'
 Somewhere around 0x19 we have 'FLIR' 
 etc etc
 
