@@ -1,6 +1,6 @@
 <H1>exiftool Batch</H1>
 
-This is an add on and a little bit messy but it gets the job done. 
+This is an add on and a little bit messy but it gets the job done. Still relevant in 2022
 
 <H2><b>Preface:</b></H2>
 
